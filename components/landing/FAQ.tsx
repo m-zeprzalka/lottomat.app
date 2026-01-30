@@ -21,7 +21,7 @@ export function FAQ() {
                     <AccordionItem value="item-2" className="border-b border-white/10">
                         <AccordionTrigger className="text-left text-lg hover:text-primary transition-colors py-6">Jak działa algorytm?</AccordionTrigger>
                         <AccordionContent className="text-muted-foreground leading-relaxed pb-6">
-                            Algorytm analizuje miliony historycznych wyników, szukając powtarzalnych wzorców (tzw. patternów), cykliczności liczb "zimnych" i "gorących" oraz anomalii statystycznych. Wykorzystujemy uczenie maszynowe, aby z każdym losowaniem system był coraz precyzyjniejszy.
+                            Algorytm analizuje miliony historycznych wyników, szukając powtarzalnych wzorców (tzw. patternów), cykliczności liczb "zimnych" i "gorących" oraz anomalii statystycznych. Wykorzystujemy uczenie maszynowe, aby z każdym losowaniem system był coraz bardziej precyzyjny.
                         </AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="item-3" className="border-b border-white/10">

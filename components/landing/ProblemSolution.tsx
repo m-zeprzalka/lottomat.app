@@ -8,10 +8,10 @@ export function ProblemSolution() {
 
                 <div className="mb-20">
                     <h2 className="text-3xl md:text-5xl font-bold tracking-tight mb-6">
-                        Masz 1 szansę na <span className="text-primary font-mono bg-primary/10 px-2 rounded">13 983 816</span>
+                        Masz 1 szansę na <br /><span className="text-primary font-mono bg-primary/10 px-2 rounded">13 983 816</span>
                     </h2>
                     <p className="text-xl text-muted-foreground max-w-3xl">
-                        Chyba że masz lottomat.app. Zamieniamy szczęście na statystykę, wykorzystując twarde dane przeciwko ślepemu losowi.
+                        Chyba, że masz konto w lottomat.app. Zamieniamy przypadek na statystykę, wykorzystując twarde dane przeciwko ślepemu losowi.
                     </p>
                 </div>
 
@@ -21,21 +21,21 @@ export function ProblemSolution() {
                     <div className="lg:col-span-2 grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div className="p-8 rounded-3xl bg-white/5 border border-white/10 relative overflow-hidden group flex flex-col justify-between min-h-[300px]">
                             <div className="absolute top-0 right-0 p-6 opacity-10 group-hover:opacity-20 transition-opacity">
-                                <XCircle size={80} className="text-white" />
+                                <XCircle size={40} className="text-white" />
                             </div>
                             <div className="relative z-10">
                                 <h3 className="text-2xl font-bold mb-2 text-white">Błąd Poznawczy</h3>
                                 <div className="w-12 h-1 bg-white/20 mb-6 rounded-full" />
                                 <p className="text-muted-foreground leading-relaxed">
-                                    Ludzkie przeczucie nie ma szans z matematyką. Wybieranie dat urodzin to statystyczne samobójstwo w grach losowych.
+                                    Ludzkie przeczucie nie ma szans z matematyką. Wybieranie dat urodzin to statystyczny strzał w kolano w grach losowych.
                                 </p>
                             </div>
-                            <div className="mt-8 text-sm font-mono text-muted-foreground/40">ERROR: HUMAN BIAS DETECTED</div>
+                            <div className="mt-8 text-sm font-mono text-muted-foreground/40">Efekt Dunninga-Krugera</div>
                         </div>
 
                         <div className="p-8 rounded-3xl bg-primary text-black relative overflow-hidden group flex flex-col justify-between min-h-[300px]">
                             <div className="absolute top-0 right-0 p-6 opacity-10 group-hover:opacity-20 transition-opacity">
-                                <Database size={80} className="text-black" />
+                                <Database size={40} className="text-black" />
                             </div>
                             <div className="relative z-10">
                                 <h3 className="text-2xl font-bold mb-2">Potęga Danych</h3>
@@ -55,17 +55,17 @@ export function ProblemSolution() {
                         <BentoCard
                             icon={<BrainCircuit className="w-6 h-6 text-primary" />}
                             title="Analiza Patternów"
-                            desc="Wykrywanie anomalii w rozkładzie liczb parzystych."
+                            desc="Wykrywanie zależności i anomalii w rozkładzie liczb parzystych i nieparzystych."
                         />
                         <BentoCard
                             icon={<Database className="w-6 h-6 text-primary" />}
                             title="Cold & Hot Numbers"
-                            desc="Śledzenie częstotliwości występowania."
+                            desc="Śledzenie częstotliwości występowania konkretnych liczb w różnych przedziałach czasowych."
                         />
                         <BentoCard
                             icon={<Fingerprint className="w-6 h-6 text-primary" />}
                             title="Eliminacja Szumu"
-                            desc="Odrzucanie kombinacji nieprawdopodobnych."
+                            desc="Odrzucanie kombinacji z najmniejszym prawdopodobieństwem, które mają znikome szanse na wylosowanie."
                         />
                     </div>
                 </div>

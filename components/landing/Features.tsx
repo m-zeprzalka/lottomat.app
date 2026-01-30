@@ -18,12 +18,12 @@ export function Features() {
                     <FeatureItem
                         icon={<Zap className="w-8 h-8 text-primary" />}
                         title="Predykcje Live"
-                        desc="Generowane na krótko przed losowaniem w oparciu o najświeższe trendy."
+                        desc="Generowane przed każdym losowaniem w oparciu o aktualny trend."
                     />
                     <FeatureItem
                         icon={<Database className="w-8 h-8 text-primary" />}
                         title="Archiwum i Statystyki"
-                        desc="Pełny wgląd w historię trafień naszych algorytmów i skuteczność."
+                        desc="Pełny wgląd w historię zakładów, trafień naszych algorytmów oraz ich skuteczność."
                     />
                     <FeatureItem
                         icon={<Calculator className="w-8 h-8 text-primary" />}
@@ -33,7 +33,7 @@ export function Features() {
                     <FeatureItem
                         icon={<Bell className="w-8 h-8 text-primary" />}
                         title="Powiadomienia"
-                        desc="Wyniki i nowe analizy prosto na Twój telefon."
+                        desc="Wyniki i nowe analizy wysyłane prosto na Twój telefon."
                     />
                 </div>
             </div>

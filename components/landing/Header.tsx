@@ -22,7 +22,7 @@ export function Header() {
                             </Link>
                             <nav className="hidden md:flex gap-8 text-sm font-medium">
                                 <Link className="text-muted-foreground hover:text-primary transition-colors flex items-center gap-2" href="#">
-                                    Problem & Rozwiązanie
+                                    Analiza AI
                                 </Link>
                                 <Link className="text-muted-foreground hover:text-primary transition-colors flex items-center gap-2" href="#">
                                     Jak to działa
@@ -66,7 +66,7 @@ export function Header() {
                         <div className="container mx-auto max-w-7xl px-4 md:px-6">
                             <div className="pointer-events-auto bg-black/90 border border-white/10 rounded-2xl shadow-2xl p-4 backdrop-blur-xl w-full">
                                 <nav className="flex flex-col gap-2">
-                                    <MobileLink href="#" icon={<Sparkles className="w-5 h-5" />}>Problem & Rozwiązanie</MobileLink>
+                                    <MobileLink href="#" icon={<Sparkles className="w-5 h-5" />}>Analiza AI</MobileLink>
                                     <MobileLink href="#" icon={<HelpCircle className="w-5 h-5" />}>Jak to działa</MobileLink>
                                     <MobileLink href="#" icon={<DollarSign className="w-5 h-5" />}>Cennik</MobileLink>
 

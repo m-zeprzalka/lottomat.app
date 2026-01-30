@@ -9,7 +9,7 @@ export function HowItWorks() {
             <div className="container mx-auto max-w-7xl px-4 md:px-6 relative z-10">
                 <div className="text-center mb-24">
                     <h2 className="text-3xl md:text-5xl font-bold tracking-tight mb-6">
-                        Matematyka w służbie Twojej fortuny
+                        Matematyka w służbie Twojej Wygranej
                     </h2>
                     <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
                         Nie obiecujemy "magicznego sposobu" na wygraną – obiecujemy matematyczną optymalizację.
@@ -42,21 +42,21 @@ export function HowItWorks() {
                     {/* Ambient Blur Underneath */}
                     <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full max-w-[600px] bg-primary/20 blur-[120px] rounded-full opacity-50 pointer-events-none group-hover:opacity-75 transition-opacity duration-1000" />
 
-                    <div className="relative p-10 md:p-14 rounded-[2.5rem] bg-black/60 border border-white/10 overflow-hidden backdrop-blur-xl shadow-2xl">
+                    <div className="relative p-10 md:p-14 rounded-3xl bg-black/60 border border-white/10 overflow-hidden backdrop-blur-xl shadow-2xl">
                         {/* Quote Effects */}
-                        <div className="absolute inset-0 bg-grid-white opacity-[0.05] [mask-image:radial-gradient(ellipse_at_center,white,transparent)] pointer-events-none" />
+                        <div className="absolute inset-0 bg-grid-white opacity-40 [mask-image:radial-gradient(ellipse_at_center,white,transparent)] pointer-events-none" />
 
                         <div className="relative z-10 text-center flex flex-col items-center">
                             <p className="text-xl md:text-2xl font-normal leading-relaxed text-white/90 mb-8 max-w-3xl mx-auto">
                                 <span className="text-primary text-4xl leading-none mr-2 font-serif align-middle">"</span>
-                                Lottomat to nie wróżbiarstwo. To czysta statystyka podana w przystępnej formie. Dla kogoś, kto lubi mieć kontrolę nad strategią gry, to narzędzie obowiązkowe.
+                                Hobbystryczny projekt z pasji do analizy danych i programowania, który przerodził się w pełnoprawne narzędzie do predykcji liczb. Mam nadzieję, że pomoże wam w maksymalizacji wygranych osiąganych w grach i zakładach Totalizatora Sportowego.
                                 <span className="text-primary text-4xl leading-none ml-2 font-serif align-middle">"</span>
                             </p>
                             <div className="flex flex-col items-center gap-3">
-                                <div className="w-14 h-14 rounded-full bg-white/5 flex items-center justify-center font-bold text-xl border border-white/10 text-primary shadow-inner">M</div>
+                                <div className="w-14 h-14 rounded-full bg-white/5 flex items-center justify-center font-bold text-xl border border-white/10 text-primary shadow-inner"><img src="/avatar.png" alt="Michał Zeprzałka" className="w-14 h-14 rounded-full" /></div>
                                 <div className="text-center">
-                                    <div className="font-bold text-white text-lg">Marek</div>
-                                    <div className="text-primary/80 text-xs font-mono tracking-widest uppercase mt-1">Użytkownik Premium</div>
+                                    <div className="font-bold text-white text-lg">Michał Zeprzałka</div>
+                                    <div className="text-primary/80 text-xs font-mono tracking-widest uppercase mt-1">Twórca lottomat.app - zeprzalka.com</div>
                                 </div>
                             </div>
                         </div>

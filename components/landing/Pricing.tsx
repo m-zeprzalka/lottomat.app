@@ -12,13 +12,14 @@ export function Pricing() {
                         Wybierz swoją strategię sukcesu
                     </h2>
                     <p className="text-xl text-muted-foreground">
-                        Darmowy start czy płatna precyzja?
+                        Darmowy start czy pełna płatna opcja?
                     </p>
                 </div>
 
                 <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
                     {/* Free Plan */}
-                    <div className="p-8 rounded-3xl bg-secondary/20 border border-white/10 flex flex-col">
+                    <div className="p-8 rounded-3xl bg-secondary/20 border border-white/10 flex flex-col relative overflow-hidden">
+                        <div className="absolute inset-0 bg-grid-white opacity-40 pointer-events-none" />
                         <div className="mb-6">
                             <h3 className="text-2xl font-bold">Podstawowy</h3>
                             <div className="text-4xl font-bold mt-2">0 zł</div>
@@ -48,10 +49,10 @@ export function Pricing() {
                         </div>
                         <ul className="space-y-4 mb-8 flex-1">
                             <li className="flex items-center"><Check className="text-primary mr-2" /> Wyniki archiwalne</li>
-                            <li className="flex items-center"><Check className="text-primary mr-2" /> Wszystkie predykcje (Lotto, Euro, Multi)</li>
-                            <li className="flex items-center"><Check className="text-primary mr-2" /> Podstawowe & Zaawansowane statystyki</li>
+                            <li className="flex items-center"><Check className="text-primary mr-2" /> Wszystkie predykcje</li>
+                            <li className="flex items-center"><Check className="text-primary mr-2" /> Podstawowe i Zaawansowane statystyki</li>
                             <li className="flex items-center"><Check className="text-primary mr-2" /> Filtry algorytmiczne</li>
-                            <li className="flex items-center"><Check className="text-primary mr-2" /> Brak reklam & Push</li>
+                            <li className="flex items-center"><Check className="text-primary mr-2" /> Brak reklam</li>
                         </ul>
                         <Button className="w-full h-12 rounded-xl text-lg bg-primary text-black hover:bg-primary/90 hover:shadow-[0_0_20px_rgba(204,255,0,0.4)] transition-all">
                             Rozpocznij Okres Próbny

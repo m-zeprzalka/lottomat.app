@@ -6,7 +6,7 @@ export function Hero() {
     return (
         <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden bg-background pt-32">
             {/* Improved Gradient - Smoother Radial */}
-            <div className="absolute inset-0 bg-grid-white [mask-image:linear-gradient(to_bottom,transparent,black,transparent)] opacity-20 pointer-events-none" />
+            <div className="absolute inset-0 bg-grid-white [mask-image:linear-gradient(to_bottom,transparent,black,transparent)] opacity-60 pointer-events-none" />
             <div className="absolute top-[-20%] left-1/2 -translate-x-1/2 w-[800px] h-[800px] rounded-full bg-[radial-gradient(circle,rgba(204,255,0,0.15)_0%,transparent_70%)] blur-[160px] pointer-events-none" />
 
             <div className="container mx-auto max-w-7xl relative z-10 px-4 md:px-6 flex flex-col items-center text-center">
@@ -26,7 +26,7 @@ export function Hero() {
 
                 <div className="flex flex-col items-center gap-6">
                     <Button size="lg" className="bg-primary text-black hover:bg-primary/90 text-lg h-14 px-8 rounded-full shadow-[0_0_20px_rgba(204,255,0,0.3)] hover:shadow-[0_0_35px_rgba(204,255,0,0.5)] transition-all transform hover:scale-105 duration-300">
-                        Sprawdź dzisiejsze predykcje
+                        Sprawdź Predykcje
                         <ArrowRight className="ml-2 w-5 h-5" />
                     </Button>
                     <div className="text-sm text-muted-foreground/60 flex flex-col md:flex-row items-center gap-2 text-center">
@@ -35,7 +35,7 @@ export function Hero() {
                                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
                                 <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
                             </span>
-                            <span>Dołącz do <span className="text-foreground font-semibold">1 200</span> użytkowników</span>
+                            <span>Dołącz do <span className="text-foreground font-semibold">114+</span> użytkowników</span>
                         </div>
                         <span className="hidden md:inline">-</span>
                         <span>optymalizujących swoje zakłady.</span>
