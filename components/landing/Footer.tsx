@@ -23,7 +23,6 @@ export function Footer() {
                     <ul className="space-y-2 text-sm text-muted-foreground">
                         <li><Link href="#" className="hover:text-primary">Funkcje</Link></li>
                         <li><Link href="#" className="hover:text-primary">Cennik</Link></li>
-                        <li><Link href="#" className="hover:text-primary">API</Link></li>
                     </ul>
                 </div>
 
